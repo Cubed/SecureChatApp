@@ -11,7 +11,7 @@ def debug_print(*args):
     if DEBUG:
         print("[DEBUG]", *args)
 
-KEY = b'SecureKey123!!!'  
+KEY = b'This is a key123'  
 
 def encrypt_message(message, key):
     debug_print("Original message:", message)
